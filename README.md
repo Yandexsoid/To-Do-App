@@ -1,93 +1,38 @@
-# 📝 TodoList + Calendar App
+# 📝 TodoList + Calendar
 
 [![Swift](https://img.shields.io/badge/Swift-5.5-orange.svg)](https://swift.org)
 [![iOS](https://img.shields.io/badge/iOS-15.0+-blue.svg)](https://developer.apple.com/ios/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-> Simple iOS app with task manager and calendar / Простое iOS-приложение с менеджером задач и календарем
+> iOS app with tasks & calendar / Приложение с задачами и календарем
 
 ---
 
-## ✨ Features / Возможности
+## ✨ Features
 
-- ✅ Create, complete, delete tasks / Создание, выполнение, удаление задач
-- 📅 Calendar with date selection / Календарь с выбором даты
+- ✅ CRUD tasks / Управление задачами
+- 📅 Calendar picker / Календарь
 - 🌓 Dark/Light theme / Темная/Светлая тема
-- 💾 Auto-save to UserDefaults / Автосохранение
-- ⏰ Time tracking / Время выполнения
-- 📝 Notes support / Поддержка заметок
+- 💾 Auto-save / Автосохранение
 
----
+## 🏗️ Tech
 
-## 🏗️ Architecture / Архитектура
+**SwiftUI + MVVM + UserDefaults**
 
-**MVVM** pattern: `View (SwiftUI)` → `ViewModel (TodoManager)` → `Model (Task)`
+## 📁 Structure
+App.swift → ContentView.swift → TodoManager.swift → Task.swift
 
----
 
-## 📁 Project Structure / Структура
-
-TodoApp/
-├── App.swift # Entry point
-├── ContentView.swift # Main view
-├── AddTodoView.swift # Add task view
-├── TodoManager.swift # ViewModel
-├── Task.swift # Model
-└── Assets.xcassets # Resources
-
-text
-
----
-
-## 🚀 Technologies
-
-- SwiftUI
-- Combine
-- UserDefaults
-- MVVM
-
----
-
-## 📱 Requirements
+## 💻 Requirements
 
 - iOS 15.0+
 - Xcode 13.0+
-- Swift 5.5+
 
----
-
-## 💡 Installation
+## 🚀 Run
 
 ```bash
-git clone https://github.com/yourusername/todo-calendar-app.git
-cd todo-calendar-app
+git clone <repo>
 open TodoApp.xcodeproj
-Press ⌘ + R to run / Нажмите ⌘ + R для запуска
-
-📸 Screenshots
-Light Theme	Dark Theme
-📱 Add screenshot	📱 Add screenshot
-🤝 Contributing
-Fork the repo
-
-Create feature branch (git checkout -b feature/Amazing)
-
-Commit changes (git commit -m 'Add Amazing')
-
-Push (git push origin feature/Amazing)
-
-Open Pull Request
+⌘ + R
 
 📄 License
-MIT License - see LICENSE file / MIT - см. файл LICENSE
-
-📞 Contact
-Your Name
-
-Email: your.email@example.com
-
-GitHub: @yourusername
-
-⭐ Star this repo if you like it! / ⭐ Поставьте звезду, если понравилось!
-
-Made with ❤️ using SwiftUI
+MIT © 2024 Yandexsoid
