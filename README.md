@@ -26,6 +26,7 @@
 ---
 
 ## 📁 Project Structure / Структура
+
 TodoApp/
 ├── App.swift # Entry point
 ├── ContentView.swift # Main view
